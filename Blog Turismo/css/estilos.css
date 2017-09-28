@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../img/paisajes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.menu-principal img{
+  margin-top:55px;
+  margin-left: 10px;
+  height: 140px;
+  border: 7px solid #26a69a ;
+  border-radius: 10px;
+}
+
+.menu-principal{
+  height: 120px;
+  margin:0;
+  padding: 0;
+}
+
+.btn-group{
+}
+
+.button{
+  margin-top: 10px;
+  width:100%;
+}
+
+.social{
+  background: #ecf0f1;
+  padding: 5px;
+  float: left;
+  position: fixed;
+}
+
+.social img{
+  padding: 5px;
+  width: 45px;
+}
+
+.imgs img{
+  border-radius: 10px;
+}
+
+.articulos{
+  margin-left: 50px !important;
+}
+
+.articulo-1{
+  margin-left: 5px !important;
+  box-sizing: border-box;
+}
+
+.articulo-1 img{
+  margin: 10px 0;
+}
+
+.titulo-card{
+  text-align: center;
+}
+
+.input-field{
+  color: #fff;
+}
+
+
+@media screen and (max-width:480px) {
+  .menu-principal{
+    height: auto;
+  }
+  .menu-principal img{
+    margin-top: 0;
+    margin-left: 50%;
+  }
+  .button{
+    width: 20%;
+    float: left;
+  }
+  .articulos{
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (min-width:601px) {
+  .menu-principal img{
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .autor{
+    margin-left: 5px !important;
+  }
+}

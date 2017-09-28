@@ -1,0 +1,56 @@
+.navbar-fixed-top{
+  min-height: 10%;
+  background: #1abc9c;
+}
+
+
+#SocialBlock li a img{
+  width: 32px;
+}
+
+#SocialBlock{
+  margin-top: 5rem;
+}
+
+header.container{
+  background: #e74c3c;
+}
+
+.list-inline>li{
+  padding: 0 !important;
+}
+
+.columna-articulos{
+  margin-top: 10px;
+  padding: 15px;
+  background: #ecf0f1;
+}
+
+.articulo-1  img{
+  padding: 15px;
+  float: left;
+  width: 200px;
+}
+
+.articulo-2  img{
+  padding: 15px;
+  float: right;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.img-comentario{
+}
+
+textarea{
+  resize: none;
+}
+
+.input-group{
+  margin-top: 10px;
+}
+
+ul li{
+  padding: 5px 10px;
+  border-bottom: .5px solid #888;
+}

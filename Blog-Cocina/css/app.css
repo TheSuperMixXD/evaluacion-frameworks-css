@@ -1,0 +1,102 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.column{
+  float: left !important;
+}
+
+.contenedor{
+    background: rgba(22, 160, 133,.7) ;
+    color: #fff;
+}
+
+.menu-izq{
+  border-right: 1px solid #fff;
+}
+
+hr{
+  border-color: #fff;
+  border-width: 1.6px;
+  width: 95%;
+}
+
+.buscador{
+  display: flex;
+}
+
+ul.menu-principal li{
+  border-top: 2px solid #ecf0f1;
+}
+
+ul.menu-principal li:nth-child(1) {
+  border-top: none;
+}
+
+ul.menu-principal{
+  border: 2px solid #ecf0f1;
+  padding: 10px;
+}
+
+
+ul.menu-historial li{
+  padding: 5px 10px;
+}
+
+.menu-hover li:hover{
+  color: #16a085;
+}
+
+.cont-imgs{
+  margin: 10px;
+}
+.cont-imgs img{
+  border: 4px solid #fff;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+div[class*="articulo"]{
+  background: rgba(236, 240, 241,.5);
+  padding: 10px;
+  color: #333;
+}
+
+.articulo-2{
+  margin-top: 20px;
+}
+
+.escribir-comentario{
+  display: flex;
+}
+
+.escribir-comentario textarea{
+  resize: none;
+}
+
+.comentario{
+  border: 2px solid #16a085;
+  border-radius: 10px;
+  color: #000;
+  display: flex;
+  margin: 5px 0;
+}
+
+.comentario img{
+  float: left;
+  height: 15%;
+}
+
+.comentario p{
+margin-top: 20px;
+}
+
+@media screen and (max-width:640px) {
+  .comentario img{
+    width: 20%;
+    margin: 10px;
+  }
+}
